@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 Intro to Command lines
 Overview
@@ -95,4 +95,3 @@ Instead of clicking through file system, work in 1 terminal
 
 Execute commands as superuser
 sudo = Allows regular users to run programs with the security privileges of the superuser or root
-
