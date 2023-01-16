@@ -1,0 +1,98 @@
+---
+published: false
+---
+Intro to Command lines
+Overview
+Basic linux Commands
+The stuff that you can do with these
+	Work with the file system
+	Create folders
+	List files in directory
+	Rename and remove files
+	Display Operating System Infos
+
+Command Line Interface – CLI
+
+GUI vs. CLI
+
+GUI = A graphical user interface, where we have graphical elements that you can interact with, like buttons.
+
+CLI = Command Line Interface, where users type in commands and see the results printed on the screen
+
+Terminal = the GUI window that you see on the screen. It takes commands and shows output.
+
+
+In terminal you would get this text, which means
+
+luke@luke-virtual-machine:~$
+
+luke-virtual-machine – computer name
+luke - username
+~ = home directory
+$ - represents regular user
+# - sign for root user
+
+
+Commands
+
+pwd = print working directory. It shows current directory
+
+ls = List folders and files. ls shows the list of files and folders in the directory
+
+cd[dir name] = Change directory to [dir]
+rcsvs
+cd - = It takes you back to the previous location
+
+mkdir = make directory. It makes new folders.
+
+
+
+touch [filename] = Create [filename]          e.g.  touch main.py
+rm [filename] = Delete [filename]                e.g rm main.py
+
+cd ..  = go up a directory
+
+
+rm -r [dirname] = Delete a non-empty directory and all the files within it.
+rm -d [dirname] or rmdir [dirname] = Delete an empty directory
+
+clear = clears the terminal
+
+
+
+EVERTHING in Linux is a File
+	Text documents, Pictures etc.
+	Directories
+	Commands, like pwd, ls etc. These are referred as binary files.
+
+cd [absolute path] = Move to any location by providing the full path
+
+mv [filename] [new_filename] = Rename the file to a new filename
+cp -r [dirname] [new_dirname] = Copy dirname to new_dirname
+
+ls [dirname] = shows the contents of the directory
+history = for history of commands
+history 20 = it gives last twenty commands
+
+ls -a = shows all files (including hidden files)
+
+cat [filename] = Display the file content
+
+To know and operate Linux you don’t need to know each and every command by heart!
+You just need to know these 20 commands and you are good to go.
+
+
+Why use CLI over GUI?
+
+	Work more efficient
+Instead of clicking through file system, work in 1 terminal  
+
+	Easier for bulk operations
+
+	CLI is more powerful
+
+
+
+Execute commands as superuser
+sudo = Allows regular users to run programs with the security privileges of the superuser or root
+
